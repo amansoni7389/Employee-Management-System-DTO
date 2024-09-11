@@ -23,7 +23,7 @@ public class PersonController {
 		return service.getAll(p);
 	}
 	@PostMapping("/save")
-	public PersonDTO save(@RequestBody Person p) {
+	public PersonDTO savetest(@RequestBody Person p) {
 		return service.savePerson(p);
 	}
 }
